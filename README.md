@@ -105,5 +105,5 @@ Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí est�
 - Inicia un nuevo issue o contribuye con un PR
 - Muestra tu agradecimiento diciendo gracias en un nuevo Issue.
 
-⌨️ c por [Michel Valenzuela](https://github.com/Emmeuve) 
+⌨️ creado por [Michel Valenzuela](https://github.com/Emmeuve) 
 
