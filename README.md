@@ -1,4 +1,4 @@
-# Proyecto El Tuercas  Ruby on Rails - Proyecto El Tuercas
+# Proyecto El Tuercas  Ruby on Rails
 
 Este proyecto corresponde a la prueba establecida por Talento Digital para el curso impartido de "Desarrollo de Ruby on Rails para emprendimientos de tipo Startup por el centro de formacion de Inforcap, es una guía paso a paso para crear proyectos tipo MVP (Producto Mínimo Viable) haciendo uso del framework Ruby on Rails. El objetivo principal es aplicar los conceptos básicos del framework, hacer uso de las mejores prácticas y crear un producto mínimo viable.
 
