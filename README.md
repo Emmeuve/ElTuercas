@@ -13,9 +13,8 @@ Este proyecto corresponde a la prueba del talento digital en el que se busca dem
 - [x] Etapa 3: Generar Modelos de referencia
 - [x] Etapa 4: Integrar Autenticación de usuarios
 - [x] Etapa 5: Generar Scaffold de los servicemanagenment
-- [x] Etapa 6: Integrar ActiveStorage y relaciones polimorficas
-- [x] Etapa 7: Aplicar estilos a las vistas
-- [x] Etapa 8: Solicitar datos
+- [x] Etapa 6: Aplicar estilos a las vistas
+- [x] Etapa 7: Solicitar datos
 
 El principal problema que enfrentan es la necesidad de una plataforma que cumpla con todos sus requerimientos:
 
