@@ -1,0 +1,42 @@
+<%= form_with(model: service_management) do |form| %>
+  <% if service_management.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(service_management.errors.count, "error") %> prohibited this service_management from being saved:</h2>
+
+      <ul>
+        <% service_management.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :client_id, style: "display: block" %>
+    <%= form.text_field :client_id %>
+  </div>
+
+  <div>
+    <%= form.label :contact_id, style: "display: block" %>
+    <%= form.text_field :contact_id %>
+  </div>
+
+  <div>
+    <%= form.label :vehiculo_id, style: "display: block" %>
+    <%= form.text_field :vehiculo_id %>
+  </div>
+
+  <div>
+    <%= form.label :repair_id, style: "display: block" %>
+    <%= form.text_field :repair_id %>
+  </div>
+
+  <div>
+    <%= form.label :service_id, style: "display: block" %>
+    <%= form.text_field :service_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

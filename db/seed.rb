@@ -25,10 +25,23 @@
 #  end
 #end
 
-puts "Importando Vehiculo..."
-csv.foreach(Rails.root.join("db", "Vehiculo.csv"), headers: true) do |row|
-  Repair.create! do |repair|
-    repair.id = row[0]
-    repair.name = row[1]
-  end
+#puts "Importando Vehiculo..."
+#csv.foreach(Rails.root.join("db", "Vehiculo.csv"), headers: true) do |row|
+#  Repair.create! do |repair|
+#    repair.id = row[0]
+#    repair.name = row[1]
+#  end
+#end
+
+puts 'Importing vehicles...'
+
+50.times do
+  vehicle = Vehicle.create(
+    make: Faker::Vehicle.make,
+    model: Faker::Vehicle.model,
+    year: Faker::Vehicle.year,
+    price: Faker::Number.decimal(l_digits: 5, r_digits: 2),
+    vehicle_type: VehicleType.order("RANDOM()").first,
+    color: Color.order("RANDOM()").first
+  )
 end

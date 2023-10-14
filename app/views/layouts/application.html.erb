@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ElTuercas</title>
+    <title>El Tuercas</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -19,22 +19,16 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>ElTuercas</h1>
             <%= yield %>
-            
-            <img src="..." class="img-fluid" alt="...">
           </div>
         </div>
       </div> 
-    <footer class="section bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p class="text-center text-white">ElTuercas</p>
-          </div>
-        </div>
       </div>
-
-    </footer>     
+    </div>
   </body>
+
+  <footer>
+    <%=render "shared/footer"%>
+  </footer>
+
 </html>

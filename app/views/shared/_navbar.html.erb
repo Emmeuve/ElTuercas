@@ -16,5 +16,11 @@
             <%= link_to "Contacto", contacto_path, class: "nav-link" %>
         </li>
         </ul>
+        <nav class="navbar bg-body-tertiary">
+            <form class="container-fluid justify-content-start">
+            <%= link_to "Inicio Sesion", new_user_registration_path , class: "btn btn-sm btn-outline-secondary" %>
+            <%= link_to "Cerrar Sesion", new_user_session_path , class: "btn btn-sm btn-outline-secondary" %>
+            </form>
+</nav>
     </div>
 </nav>

@@ -1,0 +1,21 @@
+
+/* Path: app/assets/stylesheets/style.css */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+}
+
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 0;
+  text-align: center;
+}
