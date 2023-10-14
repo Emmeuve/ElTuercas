@@ -3,7 +3,6 @@ class PagesController < ApplicationController
   end
 
   def nosotros
-    @pagy, @records = pagy(Product.all)
   end
 
   def servicios
