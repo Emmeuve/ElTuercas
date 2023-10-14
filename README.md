@@ -6,31 +6,25 @@ Realizaremos el sitio web de una empresa dedicada a catalogar inmuebles para su 
 
 ## Descripción
 
-Este proyecto estaría dirigido a personas que quieran aprender a crear aplicaciones web con Ruby on Rails, desde cero, hasta llegar a un producto mínimo viable. Si ya tienes conocimientos previos de Ruby on Rails, sería un buen repaso de los conceptos básicos y una buena práctica para mejorar tus habilidades. El proyecto se divide en las siguientes etapas:
+Este proyecto corresponde a la prueba del talento digital en el que se busca demostrar los conocimientos adquiridos para la creacion de aplicaciones web con Ruby on Rails, desde cero, hasta llegar a un producto mínimo viable. El proyecto se divide en las siguientes etapas:
 
 - [x] Etapa 1: Creación del proyecto
 - [x] Etapa 2: Generar Vistas estaticas
 - [x] Etapa 3: Generar Modelos de referencia
 - [x] Etapa 4: Integrar Autenticación de usuarios
-- [x] Etapa 5: Generar Scaffold de los inmuebles
+- [x] Etapa 5: Generar Scaffold de los servicemanagenment
 - [x] Etapa 6: Integrar ActiveStorage y relaciones polimorficas
 - [x] Etapa 7: Aplicar estilos a las vistas
-- [x] Etapa 8: Solicitar inmuebles
+- [x] Etapa 8: Solicitar datos
 
-### El proyecto esta desarrollado siguiendo la siguiente premisa
+El principal problema que enfrentan es la necesidad de una plataforma que cumpla con todos sus requerimientos:
 
-**InforcapHouse** es una empresa que esta incursionando en la venta de inmuebles, inicialmente publicaban los inmuebles en grupos de facebook o en instagram y están satisfechos con ambas plataformas 🖥️🛍️. Sin embargo, están buscando expandirse y crear su propia presencia en línea a través de un sitio web.
-
-El principal problema que enfrentan es la necesidad de una plataforma confiable y estable que cumpla con todos sus requerimientos:
-
-- Paginas estaticas, Inicio, terminos legales.
+- Paginas estaticas, Inicio, Nosotros, Servicios y Contacto.
 - Formulario de contacto.
-- Autenticación de usuarios, 2 roles de usuario (Admin, User)
+- Autenticación de usuario.
 - Inmueble con la siguiente información; Tipo de inmueble, tipo de oferta, descripción del inmueble, area, precio, caracteristicas (Estas deben poder seleccionar una o multiples), Foto e información de contacto.
 
-Aquí es donde entras tú 😊. Tu desafío es presentar una propuesta de desarrollo que sea competitiva, destacando entre otras empresas y profesionales. Presentas una propuesta económica atractiva con un presupuesto justo, lo que te permite obtener una ganancia 💰, ofreciendo un excelente plazo de entrega. Lo más destacado de tu propuesta es el desarrollo de un MVP utilizando el Design Thinking y sus diversas etapas. La cereza en el pastel 🍒 es tu promesa de un tiempo de desarrollo de solo 4 horas para el desarrollo del prototipado.
-
-El cliente toma la decisión y... ¡Felicidades! 🎉 Has ganado el proyecto. Recibes un anticipo y ahora puedes empezar a trabajar en el proyecto. Recuerda, necesitas tener conocimientos previos de frontend (HTML, CSS, JavaScript, Bootstrap) y backend (PostgreSQL, Ruby, Ruby on Rails, Heroku) para llevar a cabo este proyecto. ¡Vamos a empezar! 💪🚀
+Necesitas tener conocimientos previos de frontend (HTML, CSS, JavaScript, Bootstrap) y backend (PostgreSQL, Ruby, Ruby on Rails, Heroku) para llevar a cabo este proyecto. ¡Vamos a empezar! 💪🚀
 
 ### Prerrequisitos 📋
 
@@ -92,18 +86,6 @@ para el proyecto actual.
 Estoy usando [Git](https://git-scm.com) para el versionado.
 
 ## Autor ✒️
-
-- [Michel Valenzuela C.](https://github.com/Emmeuve)
-
-## Expresiones de Gratitud 🎁
-
-Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
-
-- Comparte este proyecto con otros
-- haz un fork de este proyecto
-- Deja una estrella ⭐️
-- Inicia un nuevo issue o contribuye con un PR
-- Muestra tu agradecimiento diciendo gracias en un nuevo Issue.
 
 ⌨️ creado por [Michel Valenzuela](https://github.com/Emmeuve) 
 
